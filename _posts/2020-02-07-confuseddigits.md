@@ -1,3 +1,8 @@
+---
+title: "Absurtidy 01 - Confusing a number size (number of digits) with its value"
+date: 2020-02-07
+---
+
 The day before yesterday, I was trying to solve an "easy" problem (at least in classification for Hackerearth, for me nothing is 
 ever easy) in C and for half an hour I was confused on why I was getting SIGFPE (fatal arithmetic error). 
 
