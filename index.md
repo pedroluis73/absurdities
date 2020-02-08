@@ -1,6 +1,4 @@
----
-title: Living in the absurd
----
+# Living in the absurd
 
 Hello there! (General Kenobi??) This is a blog about the daily absurdities I make when coding, doing math, thinking or just radomly pressing buttons.
 
