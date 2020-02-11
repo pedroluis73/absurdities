@@ -20,3 +20,10 @@ comparing the size of a number (number of digits the number can have) with its a
 And this is how I was being ABSURD comparing number of digits with number values.
 
 #Absurdities
+
+
+Actually this needs to be reviewed and checked
+
+SIGFPE mistake was in A[i] % ((A[i] / 10)*10) it shoud be (A[i] > 9) ? A[i] % ((A[i] / 10)*10) : A[i];
+
+The first one leads to zero values in A[i]/10 if A[i] < 10
