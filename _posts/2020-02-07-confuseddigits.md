@@ -27,3 +27,6 @@ Actually this needs to be reviewed and checked
 SIGFPE mistake was in A[i] % ((A[i] / 10)*10) it shoud be (A[i] > 9) ? A[i] % ((A[i] / 10)*10) : A[i];
 
 The first one leads to zero values in A[i]/10 if A[i] < 10
+
+
+Need to check why the huge number digits is not failing!
