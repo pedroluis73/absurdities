@@ -19,14 +19,21 @@ comparing the size of a number (number of digits the number can have) with its a
 
 And this is how I was being ABSURD comparing number of digits with number values.
 
-#Absurdities
+Actually the SIGFPE error to my problem was also coming from a division by zero (but that is another story). Nonetheless this made thing about the enormity of the numbers I was dealing with.
 
+And from what I understood from https://www.gnu.org/software/libc/manual/html_node/Program-Error-Signals.html I could not get this error from my beginner program and I quote:
 
-Actually this needs to be reviewed and checked
+"...
 
-SIGFPE mistake was in A[i] % ((A[i] / 10)*10) it shoud be (A[i] > 9) ? A[i] % ((A[i] / 10)*10) : A[i];
+ Macro: int SIGFPE
 
-The first one leads to zero values in A[i]/10 if A[i] < 10
+    The SIGFPE signal reports a fatal arithmetic error.
+...
 
+FPE_INTOVF_TRAP
 
-Need to check why the huge number digits is not failing!
+    Integer overflow (impossible in a C program unless you enable overflow trapping in a hardware-specific fashion). 
+
+..."
+
+#Absurdities #IamtheAbsurd
