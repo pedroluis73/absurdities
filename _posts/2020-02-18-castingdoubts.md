@@ -3,7 +3,7 @@ title: "Absurtidy 03 - Casting doubts or How I will never grow out of my beginne
 date: 2020-02-18
 ---
 
-From time to time, in my short, full of regrets, life the basic error involving casting appears.
+From time to time, in my short, full of regrets, programming life, a basic error involving casting appears.
 
 But please do not be tempted to think this is a thorough, obscure error that only the most proeficent programmers can detect.
 Au contraire mon ami! My error with casting begins with the simple forgetfullness that when chars are converted to ints the live in
