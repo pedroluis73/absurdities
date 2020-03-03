@@ -1,5 +1,5 @@
 ---
-title: "To be Pointer or not to be, that is the question *"
+title: "Absurdity 04 - To be Pointer or not to be, that is the question *"
 date: 2020-03-03
 ---
 
