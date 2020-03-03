@@ -7,7 +7,9 @@ Well, well, well... What am I going to do with you (me)? Tell me please!!!
 
 At this point(er) I do not know anymore...
 
-This one is a particular stupid. So I was trying to create two char arrays. And I wrote the following:
+This one is a particular stupid mistake (yes, even in my standards). 
+
+So I was trying to create two char arrays. And I wrote the following:
 
     char * arr1, arr2;
     
