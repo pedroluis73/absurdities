@@ -23,7 +23,7 @@ Solved.
 
 Ways to declare a pointer in C include:
 
-  char* arr1, *arr2, * arr3; 
+    char* arr1, *arr2, * arr3; 
 
 Please do not let me forget this! I do not want to go through this traumatic experience again!!!
 
